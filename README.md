@@ -1,5 +1,9 @@
 # Trade Bridge
 
-A shared trade agreement workspace with code-based access to specific trades.
+Trade Bridge is a static shared trade agreement workspace with code-based access to individual trades.
 
-The complete static site is available in the local project folder and Bolt-ready ZIP.
+## Cloudflare Pages
+
+The production site is served from `dist/`. Connect this repository to Cloudflare Pages with no build command and `dist` as the output directory.
+
+For a local preview, serve `dist/` with any static file server.
