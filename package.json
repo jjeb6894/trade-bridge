@@ -1,0 +1,9 @@
+{
+  "name": "trade-bridge",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx serve dist",
+    "build": "echo 'Static site — no build step required.'"
+  }
+}
