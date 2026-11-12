@@ -5,7 +5,7 @@ export function errorMiddleware(err: Error, _req: Request, res: Response, _next:
   if (err instanceof ZodError) {
     res.status(400).json({
       error: 'Validation failed',
-      details: err.errors.map((e) => ({ field: e.path.join('.'), message: e.message })),
+      details: err.issues.map((e) => ({ field: e.path.join('.'), message: e.message })),
     });
     return;
   }
