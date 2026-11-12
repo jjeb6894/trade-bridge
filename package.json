@@ -11,6 +11,6 @@
     "setup": "npm install && npm run db:migrate -w backend && npm run db:seed -w backend"
   },
   "devDependencies": {
-    "concurrently": "^9.1.0"
+    "concurrently": "^9.2.5"
   }
 }
