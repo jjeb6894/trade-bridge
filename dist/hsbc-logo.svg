@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 44" role="img" aria-label="HSBC">
+  <path fill="#db0011" d="M0 22 22 0h34l22 22-22 22H22z"/>
+  <path fill="#fff" d="m22 0 18 22L22 44 0 22z"/>
+  <path fill="#fff" d="m56 0 18 22-18 22-18-22z"/>
+  <path fill="#fff" d="M81 7h5v12h11V7h5v30h-5V24H86v13h-5V7zm28 0h5v30h-5V7zm12 0h8c7 0 11 3 11 8 0 3-2 6-5 7 4 1 6 4 6 7 0 5-4 8-11 8h-9V7zm5 5v8h3c4 0 6-1 6-4s-2-4-6-4h-3zm0 13v8h4c4 0 6-1 6-4s-2-4-6-4h-4zm22-18h12c7 0 11 4 11 9 0 4-2 7-6 8l7 13h-6l-6-12h-7v12h-5V7zm5 5v9h6c4 0 6-2 6-5s-2-4-6-4h-6z"/>
+</svg>
