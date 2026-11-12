@@ -1,5 +1,5 @@
 {
-  "name": "saas-mvp",
+  "name": "trade-bridge-mvp",
   "private": true,
   "version": "1.0.0",
   "workspaces": ["backend", "frontend"],

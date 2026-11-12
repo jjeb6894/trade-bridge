@@ -1,14 +1,20 @@
-# SaaS MVP Boilerplate
+# Trade Bridge MVP
 
-A production-ready SaaS starter with React + Vite + TypeScript frontend, Node.js + Express + TypeScript backend, and PostgreSQL with Prisma ORM.
+Trade Bridge is a two-party agreement workspace concept for physical goods, digital assets and approved value transfers. The repository contains a polished interactive Trade Bridge prototype in `dist/` plus a separate full-stack authentication scaffold that can be extended into the production application.
 
-## Stack
+## Current product status
+
+- `dist/` is the branded, static Trade Bridge prototype and can be served immediately.
+- `frontend/` and `backend/` provide a working SaaS foundation with account registration, login, protected routes, profile settings and PostgreSQL persistence.
+- The branded prototype and full-stack scaffold are not yet connected. Agreement persistence, invitations, trade-code access, payments and verification remain product-development work.
+
+## Full-stack foundation
 
 - **Frontend:** React 18, Vite, TypeScript, Tailwind CSS, React Router
 - **Backend:** Node.js, Express, TypeScript, JWT auth, Zod validation
 - **Database:** PostgreSQL, Prisma ORM
 
-## Quick Start
+## Run the full-stack foundation
 
 ### Prerequisites
 
@@ -57,10 +63,10 @@ A production-ready SaaS starter with React + Vite + TypeScript frontend, Node.js
    - Frontend: http://localhost:5173
    - Backend: http://localhost:3000
 
-## Project Structure
+## Project structure
 
 ```
-saas-mvp/
+trade-bridge/
 ├── package.json          # Root workspace + concurrently
 ├── backend/
 │   ├── package.json
@@ -138,3 +144,11 @@ saas-mvp/
 | `npm run build`                  | Build both services                 |
 | `npm run db:migrate -w backend`  | Run Prisma migrations               |
 | `npm run db:seed -w backend`     | Seed database with test user        |
+
+## Preview the Trade Bridge prototype
+
+Serve the checked-in `dist/` directory with any static server. It includes the branded landing page, agreement workspace, trade types, security, pricing, help and code-entry interactions.
+
+## Buyer handoff
+
+Before production launch, the buyer must connect the branded prototype to the authenticated application, implement the agreement data model and permissions, replace all demonstration claims and pricing, add payment and notification providers, and complete legal and compliance review. No escrow, insurance, identity verification or financial-service functionality should be represented as live until it is actually implemented and reviewed.
